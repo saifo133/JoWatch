@@ -512,6 +512,9 @@ footer {
 }
 
 @media (min-width: 885px) and (max-width: 1200px) {
+    .welcome .title button{
+        width: 100%;
+    }
     .pro{
         width: 250px;
     }
@@ -542,6 +545,9 @@ footer {
 }
 
 @media (min-width: 700px) and (max-width: 884px){
+    .welcome .title button{
+        width: 100%;
+    }
     .about-product1{
         flex-direction: column;
     }
@@ -557,10 +563,38 @@ footer {
     .pro{
         width: 200px;
     }
+    .all-product .watch{
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+    }
+    .watch img{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .watch h4{
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .imp-btn{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .imp-btn button{
+        margin: 10px 0;
+        width: 100%;
+    }
+    .all-product .watch p{
+        font-size: 10px;
+    }
 }
 @media (min-width: 400px) and (max-width: 700px) {
     nav{
         font-size: 15px;
+    }
+    .welcome .title button{
+        width: 100%;
     }
     .main-product{
         flex-wrap: wrap;
@@ -587,7 +621,7 @@ footer {
     .all-product .watch{
         display: flex;
         flex-wrap: wrap;
-        width: 50%;
+        width: 25%;
     }
     .watch img{
         width: 100px;
@@ -610,7 +644,7 @@ footer {
         font-size: 10px;
     }
 }
-@media (min-width: 360px) and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 400px) {
     nav{
         height: 150px;
         display: flex;
