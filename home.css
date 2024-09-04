@@ -8,7 +8,7 @@ body{
     font-family: 'cairo' , 'sans-sreif';
 }
 nav{
-    background-color: white;
+    background-color: blue;
     width: 100%;
     height:70px;
     display: flex;
