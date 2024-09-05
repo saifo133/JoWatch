@@ -35,6 +35,10 @@ nav .content ul li a{
     text-decoration: none;
     color: black;
 }
+nav .content ul li a:hover{
+    color: gold;
+    transition: all ease 0.5s;
+}
 /* nav .content ul li a:hover,
 nav .user-profile i:hover{
     color: gold;
